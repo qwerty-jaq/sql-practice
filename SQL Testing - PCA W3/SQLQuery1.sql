@@ -1,0 +1,17 @@
+CREATE DATABASE Class_DB
+GO
+USE Class_DB
+GO
+CREATE TABLE Customer
+( 
+	CustomerID INT NOT NULL PRIMARY KEY, 
+	CustomerName VARCHAR (255) NOT NULL 
+)
+
+GO
+INSERT INTO Customer
+VALUES (253, 'Janco')
+
+GO
+SELECT * FROM Customer
+GO
